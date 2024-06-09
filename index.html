@@ -11,39 +11,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
+    <button class="button-menu" type="button">
+      <img src="/img/rigth.svg" alt="arrow right" width="32px" height="32px" />
+    </button>
     <aside class="sidebar">
-      <button class="button-menu" type="button">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          width="45"
-          height="45"
-          viewBox="0 0 128 128"
-        >
-          <path
-            fill="#fff"
-            d="M64 14A50 50 0 1 0 64 114A50 50 0 1 0 64 14Z"
-          ></path>
-          <path
-            fill="#444b54"
-            d="M64,117c-29.2,0-53-23.8-53-53s23.8-53,53-53s53,23.8,53,53S93.2,117,64,117z M64,17c-25.9,0-47,21.1-47,47s21.1,47,47,47s47-21.1,47-47S89.9,17,64,17z"
-          ></path>
-          <path
-            fill="#444b54"
-            d="M86.5 52h-45c-1.7 0-3-1.3-3-3s1.3-3 3-3h45c1.7 0 3 1.3 3 3S88.2 52 86.5 52zM86.5 67h-45c-1.7 0-3-1.3-3-3s1.3-3 3-3h45c1.7 0 3 1.3 3 3S88.2 67 86.5 67z"
-          ></path>
-          <g>
-            <path
-              fill="#444b54"
-              d="M86.5,82h-45c-1.7,0-3-1.3-3-3s1.3-3,3-3h45c1.7,0,3,1.3,3,3S88.2,82,86.5,82z"
-            ></path>
-          </g>
-        </svg>
-      </button>
       <button type="button" class="button__close">
         <img
           src="/img/close-modal.svg"
@@ -52,7 +32,126 @@
           height="32px"
         />
       </button>
+      <div class="wrapp">
+        <img src="/img/setting 1.png" alt="logo" width="40px" height="40px" />
+        <h1 class="title__h1">
+          Dashboard <small class="h1__small">v.01</small>
+        </h1>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="list__item">
+            <a href="#" class="link__list">
+              <img
+                src="/img/dash.svg"
+                alt="key svg"
+                width="25px"
+                height="25px"
+              />
+              <span class="text">Dashboard</span>
+            </a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="link__list">
+              <img
+                src="/img/square.svg"
+                alt="square svg"
+                width="25px"
+                height="25px"
+              />
+              <span class="text">Product</span>
+              <img
+                src="/img/arrow.svg"
+                alt="arrow right"
+                class="arrow arrows-color"
+                width="16px"
+                height="16px"
+              />
+            </a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="active__link">
+              <img
+                src="/img/user.svg"
+                alt="user svg"
+                width="25px"
+                height="25px"
+              />
+              <span class="text">Customers</span>
+              <img
+                src="/img/chevron-right.svg"
+                alt="arrow right"
+                class="arrow arrows"
+                width="16px"
+                height="16px"
+              />
+            </a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="link__list">
+              <img
+                src="/img/wallet.svg"
+                alt="wallet svg"
+                width="25px"
+                height="25px"
+              />
+              <span class="text">Income</span>
+              <img
+                src="/img/arrow.svg"
+                alt="arrow right"
+                class="arrow arrows-color"
+                width="16px"
+                height="16px"
+              />
+            </a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="link__list">
+              <img
+                src="/img/discount.svg"
+                alt="discount svg"
+                width="25px"
+                height="25px"
+              />
+              <span class="text">Promote</span>
+              <img
+                src="/img/arrow.svg"
+                alt="arrow right"
+                class="arrow arrows-color"
+                width="16px"
+                height="16px"
+              />
+            </a>
+          </li>
+          <li class="list__item">
+            <a href="#" class="link__list">
+              <img
+                src="/img/message.svg"
+                alt="message svg"
+                width="25px"
+                height="25px"
+              />
+              <span class="text">Help</span>
+              <img
+                src="/img/arrow.svg"
+                alt="arrow right"
+                class="arrow arrows-color"
+                width="16px"
+                height="16px"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <footer class="footer">
+        <img src="/img/evano.jpeg" alt="evano" />
+        <div class="footer_details">
+          <p class="footer_name">Evano</p>
+          <p class="footer_role">Project Manager</p>
+        </div>
+      </footer>
     </aside>
+
     <script src="/main.js"></script>
   </body>
 </html>
